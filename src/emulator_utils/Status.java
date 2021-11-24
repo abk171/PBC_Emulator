@@ -4,6 +4,10 @@ public class Status {
 
     short opcode;
     boolean S, I, E, Z;
+    
+    public Status() {
+    	
+    }
 
     public Status(short op, boolean start, boolean indirect_Bit, boolean e_flag, boolean zero_flag) {
         opcode=op;
